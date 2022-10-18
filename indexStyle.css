@@ -1,0 +1,101 @@
+html { 
+font-family: Helvetica, Arial, sans-serif; display: inline-block; margin: 0px auto; text-align: center;
+}
+
+body{
+	background-color : #D3D3D3;
+}
+
+p
+{
+	font-size: 1em;
+	margin:1em;
+}
+h1
+{
+    margin:1em;
+	color:black;
+}
+
+.SensorData
+{
+	color:black;
+	font-size: 5em;
+}
+
+
+button
+{ 
+text-decoration: none; font-size: 2em; margin: 1em; cursor: pointer;
+box-shadow: 0 0.2em #303030;
+-moz-transition: all .2s ease-in;
+-o-transition: all .2s ease-in;
+-webkit-transition: all .2s ease-in;
+transition: all .2s ease-in;
+border-style: solid;
+border-width: 0.1em;
+border-color:black;
+outline:none
+}
+
+.buttonIsOn
+{ 
+    background-color: green; 
+	color: white; 
+	border-radius: 50%;
+	height: 5em; width: 5em;
+}
+
+.buttonIsOff
+{ 
+    background-color: red; 
+	color: white; 
+	border-radius: 50%;
+	height: 5em; width: 5em;
+}
+.buttonIsNull 
+{ 
+background-color: white;
+color: black;
+border-radius: 50%;
+height: 5em; width: 5em;
+}
+.buttonIsRefresh 
+{ 
+color: white; 
+background-color: #005c99; 
+border-radius: 1em;
+padding: 1.5em;
+font-size: 1.5em; 
+margin: 2em; 
+}
+
+	
+
+
+.buttonIsOn:hover:before ,.buttonIsOff:hover:before ,.buttonIsOff:hover:before 
+{
+	content:"Change status";
+}
+
+.buttonIsOn:hover span ,.buttonIsOff:hover span ,.buttonIsNull:hover span
+{
+	display:none;
+}
+
+.buttonIsOn:hover,.buttonIsOff:hover,.buttonIsNull:hover
+{
+	background-color:#005c99;
+}
+
+.buttonIsOn:active,.buttonIsOff:active,.buttonIsNull:active,.buttonIsRefresh:active {
+  box-shadow: 0 0.1em #303030;
+  transform: translateY(0.3em);
+}
+
+
+
+
+
+
+
